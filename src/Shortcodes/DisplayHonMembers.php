@@ -51,6 +51,7 @@ class DisplayHonMembers extends BaseShortcode {
 	}
 
 	public function render($atts, $content=null) {
+		ob_start();
 		$this->setup();
 		echo '<div class="tabbable tabs-left">';
 		echo $this->navTabs();
@@ -68,6 +69,11 @@ class DisplayHonMembers extends BaseShortcode {
 		}
 		echo '</div>';
 		echo '</div>';
+		$contents = ob_get_contents();
+		
+		ob_end_clean();
+
+		return $contents;
 	}
 
 

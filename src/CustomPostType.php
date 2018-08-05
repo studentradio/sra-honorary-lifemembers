@@ -28,6 +28,7 @@ class CustomPostType {
 	private $supports = [
 		"thumbnail",
 		"title",
+		"editor"
 
 	];
 
