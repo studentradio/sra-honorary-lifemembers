@@ -3,7 +3,7 @@
 Plugin Name: SRA Honorary Life Members
 Plugin URI: https://www.studentradio.org.uk
 Description: For Lifers
-Version: 1.0
+Version: 1.1
 Author: fredbradley
 Author URI: https://www.fredbradley.uk
 License: MIT
